@@ -18,7 +18,6 @@ http://localhost:8080/2-VideoServlet/video
 
 为了添加一个视频并在列表中显示出来，运行 VideoServletHttpTest JUnit 测试代码，然后刷新浏览器。
 
-
 ## 代码演练视频
 
 代码分析视频请参看：

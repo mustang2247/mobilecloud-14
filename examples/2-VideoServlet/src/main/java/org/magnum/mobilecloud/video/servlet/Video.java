@@ -3,6 +3,7 @@ package org.magnum.mobilecloud.video.servlet;
 /**
  * 一个简单的对象，用来描述视频的名称、URL、视频时长。
  */
+
 public class Video {
 
 	private String name;
