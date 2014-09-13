@@ -116,7 +116,7 @@ GET /video/{id}/data
 ```
   从 application/json 类型的 Request Body 中接收一个 Video 视频对象，或者返回某个视频对象，例如：
 ```java
-  	@RequestMapping(value = "/funny/video", method = RequestMethod.POST)
+  	@RequestMapping(value = "/video", method = RequestMethod.POST)
 	public @ResponseBody Video addVideo(@RequestBody Video v){
 		// Do something with the Video
 		// ...
@@ -136,7 +136,7 @@ GET /video/{id}/data
   	}
   	
   	public void serveSomeVideo(Video v, HttpServletResponse response) throws IOException {
-  	     // 同样，需要给客户端返回视频数据
+  	     // 需要给客户端返回视频数据时可以使用
   	     // ...
   	     videoDataMgr.copyVideoData(v, response.getOutputStream());
   	}
