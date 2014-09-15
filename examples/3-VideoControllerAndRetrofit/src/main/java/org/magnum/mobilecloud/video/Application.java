@@ -9,8 +9,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 // 告诉 Spring 框架这个对象是一个应用程序的 Configuration 对象
 @Configuration
 
-// 告诉 Spring 框架打开 WebMVC（例如，他会打开 DispatcherServlet，
-// 让请求可以被路由到我们编写的各种 Controller 当中
+// 告诉 Spring 框架打开 WebMVC（例如，他会启动一个 DispatcherServlet，
+// 让请求可以被路由到我们编写的各种 Controller 当中）
 @EnableWebMvc
 
 // 告诉 Spring 框架在 controller package 中（和所有的子程序包）扫描所有的 Controller

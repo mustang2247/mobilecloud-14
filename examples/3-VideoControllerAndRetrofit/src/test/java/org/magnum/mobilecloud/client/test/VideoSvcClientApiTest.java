@@ -22,7 +22,7 @@ import retrofit.RestAdapter.LogLevel;
  * 运行测试项目：在 Eclipse 界面中的测试项目上点击右键，然后选择 
  *   "Run As"->"JUnit Test"
  * 
- * 注意学习这个测试中的代码，测试代码直接调用 VideoSvc 的方法，但本质上一样还是使用 HTTP。
+ * 注意学习这个测试中的代码，测试代码直接调用 VideoSvc 的方法，但代码和使用 HTTP 是一样的。
  * 变化在于我们创建了一个 videoService 变量，重点学习如何使用 Retrofit 来大大的简化
  * 客户端与服务的交互！
  */
